@@ -1,0 +1,282 @@
+.border {
+	border:solid 1px red;
+}
+.header_menu {
+	width:auto;
+	background:#ffffff;
+	border-bottom:1px #d4d4d5;
+	border-bottom-style:solid;
+}
+.top_menu {
+	width:1000px;
+	margin:auto;
+	border:solid 0px red;
+}
+.top_menu li {
+	font-family:Myriad Pro;
+	font-size:11px;
+	font-style:bold;
+	color:#3a003a;
+	float:left;
+}
+.bullet {
+	background:url(../images/bullet.png);
+	background-repeat:no-repeat;
+	background-position:left 5px;
+	list-style:none;
+}
+.first {
+	list-style:none;
+	padding:0px 15px 0px 15px;
+	margin:5px 0px 5px 0px;
+}
+.middle {
+	padding:0px 15px 0px 20px;
+	margin:5px 0px 5px 0px;
+}
+.last {
+	padding:0px 0px 0px 20px;
+	margin:5px 0px 5px 0px;
+}
+.clear {
+	clear:both;
+}
+.right {
+	float:right;
+}
+.left {
+	float:left;
+}
+.align_right {
+	text-align:right;
+}
+
+.margin0 {
+	margin: 0px 0px 0px 0px;
+}
+.margin12 {
+	margin:12px;
+}
+.margin3112 {
+	margin:31px 12px;
+}
+.full_container {
+	width:auto;
+	background:#ededee;
+}
+.fixwidth {
+	width:1000px;
+	margin:auto;
+	border:solid 0px red;
+}
+.fixwidth02 {
+	width:998px;
+	margin:auto;
+	border:solid 0px red;
+}
+.spacer {
+	padding-top:15px;
+	padding-bottom:15px;
+}
+.logo {
+	width:439px;
+	border:solid 0px red;
+}
+.phone {
+	width:auto;
+	margin-top:18px;
+	font-family:Myriad Pro;
+	font-size:12px;
+	color:#73610c;
+	border:solid 0px red;
+}
+.chat {
+	width:auto;
+	border:solid 0px red;
+}
+.phone ul {
+	font-family:Century Gothic;
+	font-size:14px;
+	color:#3a003a;
+}
+.phone li {
+	padding-left:10px;
+}
+
+.icon01 {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	overflow: hidden;
+	border: 0px red solid;
+}
+.mobile {
+	position: absolute;
+	top: 0px;
+	left: -6px;
+	vertical-align: middle;
+}
+.fixphone {
+	position: absolute;
+	top: -30px;
+	left: -6px;
+}
+.sms {
+	position: absolute;
+	top: -58px;
+	left: -6px;
+}
+.bb {
+	position: absolute;
+	top: -86px;
+	left: -6px;
+}
+.contact_header {
+	padding:0px 15px 0px 16px;
+}
+.tab_height {
+	height:36px;
+}
+.tab {
+	background:url(../images/top_tab.png);
+	background-repeat:no-repeat;
+	background-position:right 0px;
+}
+.icon02 {
+	position: relative;
+	width: 33px;
+	height: 30px;
+	overflow: hidden;
+	border: 1px red solid;
+}
+.account {
+	position: absolute;
+	top: -118px;
+	left: -9px;
+}
+.cart {
+	position: absolute;
+	top: -159px;
+	left: -8px;
+}
+.fontpromo {
+	font-family:Myriad Pro;
+	font-size:11px;
+	line-height:17px;
+}
+.fontaccount {
+	width:340px;
+	padding-top:3px;
+}
+.fontaccount ul {
+	font-family:Myriad Pro;
+	font-size:13px;
+	color:#3a003a;
+	border:solid 0px red;
+}
+.paddingleft15 {
+	padding-left:15px;
+}
+.marginright {
+	margin-right:10px;
+}
+.search {
+	width:340px;
+	padding-top:3px;
+	border:solid 0px red;
+}
+.support {
+	padding-top:8px;
+	border:solid 0px red;
+}
+.support ul {
+	font-family:Century Gothic;
+	font-size:13px;
+	color:#3a003a;
+}
+.support li {
+	padding-left:20px;
+	padding-right:20px;
+}
+.cat_height {
+	height:38px;
+}
+.cat {
+	background:url(../images/bg_kategori.png);
+	background-repeat:no-repeat;
+	background-position:left 0px;
+}
+.top_content {
+	border:solid 1px #a0a0a0;
+	height:400px;
+}
+.top_radius {
+	border-top-left-radius:0.5em;
+	border-top-right-radius:0.5em;
+}
+.bottom_radius {
+	border-bottom-right-radius:0.5em;
+	border-bottom-left-radius:0.5em;
+}
+.shadow {
+	-moz-box-shadow:-1px 2px 7px 2px #d8d8da;
+	-webkit-box-shadow:-1px 2px 7px 2px #d8d8da;
+	box-shadow:-1px 2px 7px 2px #d8d8da;
+}
+.banner {
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+.banner_center {
+	margin-left:9px;
+	margin-right:9px;
+}
+.newproduct {
+	border:solid 1px #a0a0a0;
+	background:#ffffff;
+}
+.review {
+	border:solid 1px #a0a0a0;
+}
+.boxproduk {
+	width:226px;
+	margin-bottom:4px;
+    margin-top:4px;
+}
+.textcenter {
+	text-align:center;
+}
+.textbold {
+	font-weight:bold;
+}
+.lineprod {
+	border:solid 1px #995a89;
+}
+.titlemargin {
+	margin-top:20px;
+}
+.margintop15 {
+	margin-top:15px;
+}
+.borderright {
+	border-right:solid 1px #cccccc;
+}
+.moreinfo {
+	text-align:right;
+	padding-right:5px;
+}
+blue {
+	color:#1b75bb;
+}
+orange {
+	color:#f05a28;
+}
+purple01 {
+	color:#995a89;
+}
+.background01 {
+	background:#e6c419;
+}
+.background02 {
+	background:#480f46;
+}

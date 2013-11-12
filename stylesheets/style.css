@@ -280,3 +280,11 @@ purple01 {
 .background02 {
 	background:#480f46;
 }
+.ahref01 {
+	width:200px;
+	display:inline;
+}
+.category ul li {
+	display:inline;
+	width:200px;
+}

@@ -315,6 +315,9 @@ purple01 {
 purple02 {
 	color:#663c5c;
 }
+yellow {
+	color:#e6c419;
+}
 .background01 {
 	background:#e6c419;
 }
@@ -350,4 +353,35 @@ purple02 {
 	background-position:right 0px;
 	height:276px;
 	margin-bottom:15px;
+	font-family:Tahoma;
+	font-size:12px;
+	color:#ffffff;
+}
+.footer_left {
+	margin-top:10px;
+	margin-left:35px;
+}
+.footer_right {
+	margin-top:10px;
+	margin-left:10px;
+}
+.ico01 {
+	min-height:150px;
+	padding-right:3px;
+}
+.ico02 {
+	min-height:150px;
+	padding-right:65px;
+}
+.ico02 ul {
+	margin-top:7px;
+}
+.ico02 li {
+	font-size:11px;
+	line-height:5px;
+}
+.addr {
+	font-family:Segoe UI;
+	line-height:15px;
+	padding-right:95px;
 }

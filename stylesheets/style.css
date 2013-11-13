@@ -54,15 +54,23 @@
 .margin0 {
 	margin: 0px 0px 0px 0px;
 }
+.margin12 {
+	margin:12px;
+}
 .margin1010 {
 	margin-top:10px;
 	margin-bottom:10px;
 }
-.margin12 {
-	margin:12px;
+.margin1414 {
+	margin-top:14px;
+	margin-bottom:14px;
 }
 .margin3112 {
 	margin:31px 12px;
+}
+.margin_center1515 {
+	margin-left:15px;
+	margin-right:8px;
 }
 .full_container {
 	width:auto;
@@ -106,7 +114,6 @@
 .phone li {
 	padding-left:10px;
 }
-
 .icon01 {
 	position: relative;
 	width: 20px;
@@ -162,6 +169,20 @@
 	position: absolute;
 	top: -159px;
 	left: -8px;
+}
+.font01 {
+	font-family:Myriad Pro;
+	font-size:12px;
+	line-height:17px;
+}
+.font02 {
+	font-family:Myriad Pro;
+	font-size:10px;
+	line-height:15px;
+	padding-left:5px;
+	padding-right:5px;
+	color:#ffffff;
+	background:#999999;
 }
 .fontpromo {
 	font-family:Myriad Pro;
@@ -242,6 +263,13 @@
 .review {
 	border:solid 1px #a0a0a0;
 }
+.review_text {
+	width:279px;
+	font-family:Myriad Pro;
+	font-size:11px;
+	font-weight:bold;
+	line-height:16px;
+}
 .boxproduk {
 	width:226px;
 	margin-bottom:4px;
@@ -269,6 +297,9 @@
 	text-align:right;
 	padding-right:5px;
 }
+grey01 {
+	color:#666666;
+}
 blue {
 	color:#1b75bb;
 }
@@ -278,15 +309,24 @@ orange {
 purple01 {
 	color:#995a89;
 }
+purple02 {
+	color:#663c5c;
+}
 .background01 {
 	background:#e6c419;
 }
 .background02 {
 	background:#480f46;
 }
-.ahref01 {
-	width:200px;
-	display:inline;
+.background03 {
+	background:url(../images/petik_buka.png);
+	background-repeat:no-repeat;
+	background-position:left 0px;
+}
+.background04 {
+	background:url(../images/petik_tutup.png);
+	background-repeat:no-repeat;
+	background-position:right 0px;
 }
 .category  {
 	width:659px;

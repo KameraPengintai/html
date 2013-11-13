@@ -54,6 +54,10 @@
 .margin0 {
 	margin: 0px 0px 0px 0px;
 }
+.margin1010 {
+	margin-top:10px;
+	margin-bottom:10px;
+}
 .margin12 {
 	margin:12px;
 }
@@ -284,7 +288,16 @@ purple01 {
 	width:200px;
 	display:inline;
 }
-.category ul li {
-	display:inline;
-	width:200px;
+.category  {
+	width:659px;
+}
+.category li {
+	display:block;
+	width:164px;
+	float:left;
+	font-family:Myriad Pro;
+	font-size:11px;
+	font-weight:bold;
+	margin-bottom:2px;
+	color:#333333;
 }

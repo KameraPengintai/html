@@ -181,8 +181,10 @@
 	line-height:15px;
 	padding-left:5px;
 	padding-right:5px;
-	color:#ffffff;
 	background:#999999;
+}
+.prod a:link {
+	color:#ffffff;
 }
 .fontpromo {
 	font-family:Myriad Pro;
@@ -262,6 +264,7 @@
 }
 .review {
 	border:solid 1px #a0a0a0;
+	background:#f4f5f5;
 }
 .review_text {
 	width:279px;

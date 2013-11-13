@@ -344,3 +344,10 @@ purple02 {
 	margin-bottom:2px;
 	color:#333333;
 }
+.footer {
+	background:url(../images/footer.png);
+	background-repeat:no-repeat;
+	background-position:right 0px;
+	height:276px;
+	margin-bottom:15px;
+}

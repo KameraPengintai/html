@@ -392,3 +392,9 @@ yellow {
 	margin-top:50px;
 	margin-left:100px;
 }
+
+/*slideshow contaiber*/
+.ind_bann_warp{ position: relative; width: 100%; }
+.ind_bann{ height: 265px; width: 100%; overflow: hidden; box-shadow: 1px 0 2px #CCC , -1px 0 2px #CCC;}
+.slides_container{ height: 265px;}
+.ind_s_bann{ position: absolute; right: 0; top:0; z-index: 6;}

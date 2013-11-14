@@ -22,10 +22,11 @@
 	<link rel="stylesheet" href="stylesheets/skeleton.css">
 	<link rel="stylesheet" href="stylesheets/layout.css">
 	<link rel="stylesheet" href="stylesheets/style.css">
-	
-	<link rel="stylesheet" href="stylesheets/slider/boxes.css">
-	
 
+	<!--slideshow-->
+	<link rel="stylesheet" type="text/css" href="slides/style.css" />
+	<!--slideshow-->
+		
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -93,14 +94,47 @@
 		
 			<div class="ind_bann_warp">
 				<div class="ind_bann">
-					<div id="slides" class="slides_warp">
-						<div class="slides_container">
-							<a href="#"><img width="780" height="265" src="images/slide_01.png" alt=""/></a>
-							<!--<a href="4ch-h-264-full-d1-dvr-security-system-with-4-sony-ccd-night-vision-outdoor-security-cameras-500gb-hd.html"><img width="780" height="265" src="skin/frontend/default/tem_homesec361/images/media/bann_0829.jpg" alt=""/></a>
-							<a href="720p-hd-wireless-ip-network-camera.html"><img width="780" height="265" src="../www.ugetdirect.com/product_images/361/media/2013/bann_1030.jpg" alt=""/></a>
-							<a href="wireless-network-nvr-ip-system-1tb.html"><img width="780" height="265" src="skin/frontend/default/tem_homesec361/images/media/ban_0815.jpg" alt=""/></a>-->
+
+					<!-- start slideshow -->
+					<div class="containerSlide">
+						<div id="content-slider">
+							<div id="slider">
+								<div id="mask">
+									<ul>
+										<li id="first" class="firstanimation">
+										<a href="#">
+										<img src="images/slider_01.png" alt="Security Cameras"/>
+										</a>
+										<div class="tooltip">
+										<h1>Security Cameras</h1>
+										</div>
+										</li>
+
+										<li id="second" class="secondanimation">
+										<a href="#">
+										<img src="images/slider_02.jpg" alt="Wireless IP Camera"/>
+										</a>
+										<div class="tooltip">
+										<h1>Wireless IP Camera</h1>
+										</div>
+										</li>
+										
+										<li id="third" class="thirdanimation">
+										<a href="#">
+										<img src="images/slider_03.jpg" alt="ZMODO 960H"/>
+										</a>
+										<div class="tooltip">
+										<h1>ZMODO 960H</h1>
+										</div>
+										</li>
+									</ul>
+								</div>
+								<div class="progress-bar"></div>
+							</div>
 						</div>
 					</div>
+					<!-- end slideshow -->
+
 				</div>
 				<div class="ind_s_bann"><a href="#"><img width="386" height="265" src="images/bann_001.png" alt=""/></a></div>
 			</div>		

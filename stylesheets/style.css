@@ -235,7 +235,7 @@
 }
 .top_content {
 	border:solid 1px #a0a0a0;
-	height:400px;
+	min-height:400px;
 }
 .top_radius {
 	border-top-left-radius:0.5em;

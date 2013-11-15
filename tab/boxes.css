@@ -1082,7 +1082,7 @@ table.recently-list td { width:20%; }
 /* Grid Type */
 .listing-type-grid li.item { float:left; display: inline; width:138px; padding:12px 10px; line-height:1.6em; overflow:hidden; }
 .listing-type-grid .last { border-bottom:0; }
-.listing-type-grid .skuno{ font-size:10px;}
+.listing-type-grid .skuno{ /*font-size:10px;*/}
 .listing-type-grid .price-box{ border-top: 1px solid #EFEFEF; border-bottom: 1px solid #EFEFEF; height: 20px; text-align: center;}
 .listing-type-grid .list_price, .listing-type-grid .our_price, .price-box .on_sale{ display: inline-block; zoom:1; *display:inline;}
 .listing-type-grid .list_price{ margin:0 5px 0 0;}

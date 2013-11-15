@@ -247,12 +247,12 @@ p.required { font-size:.95em; text-align:right; }
 .breadcrumbs li.empty{ background: url(../images/bkg_mate_empty_v2.gif) no-repeat 0 1px; width: 12px; height: 30px; margin: 0 5px;}
 
 
-/********************** Headings */
+/********************** Headings remove
 
 .head, .inner-head { line-height:1.25em; text-align:right; }
 .head h1,.head h2, .head h3, .head h4, .head h5,
 .inner-head h1,.inner-head h2, .inner-head h3, .inner-head h4, .inner-head h5{ margin:0; float:left; }
-
+*/
 
 /* Page heading */
 .page-head { margin:0 0 25px 0; }
@@ -308,7 +308,7 @@ td.label        { font-weight:bold; }
 .data-table tbody.odd tr.border td,
 .data-table tbody.even tr.border td { border-bottom:1px solid #d9dde3; }
 
-.data-table tbody td h5.title { margin:0; padding:0; font-size:1em; font-weight:bold; color:#2f2f2f; }
+/*.data-table tbody td h5.title { margin:0; padding:0; font-size:1em; font-weight:bold; color:#2f2f2f; } remove*/
 .data-table tbody td .option-label { font-weight:bold; font-style:italic; }
 .data-table tbody td .option-value { padding-left:10px; }
 
@@ -500,9 +500,11 @@ p#logo { float:left; position: relative; width:200px; height: 79px; margin: 15px
 .side-col .box { margin-bottom:.8em; border: 1px solid #DBDBDB; /*background: #EFEFEF; border: 1px solid #DBDBDB; padding: 5px;*/ }
 .side-col .content { }
 .side-col .head { text-align:left; }
+/* remove
 .side-col h2, .side-col h3, .side-col h4, .side-col h5 { float:none; }
 .side-col h3 { font-size:1.05em; text-transform:uppercase; }
 .side-col h4 { color:#e65505; }
+*/
 .side-col .actions {
     padding:4px 0;
     font-size:.95em;
@@ -571,8 +573,8 @@ p#logo { float:left; position: relative; width:200px; height: 79px; margin: 15px
 .indlist_box{ width:85%; margin:0 auto; position:relative;}
 .indlist_box .onsale{ background:url(../images/icon_onsale.png) no-repeat; width:72px; height:74px; position:absolute; right:-10px; top:-10px; display:none;}
 .indcon_box .listing-type-grid li.item{width: 24.8%; padding: 0;}
-.indcon_box .listing-type-grid li.item h5 a{ font-size:11px;}
-.indcon_box .listing-type-grid .product-image{ height:180px; width: 180px; margin:0 auto 10px; text-align:center;}
+/*.indcon_box .listing-type-grid li.item h5 a{ font-size:11px;} remove */
+.indcon_box .listing-type-grid .product-image{ height:122px; width: auto; margin:0 auto 10px; text-align:center;}
 .listing-type-grid .indlist_box .out-of-stock{top:150px;}
 .ind_more{ position: absolute; bottom: 0; right: 0; background: #DBDBDB; padding: 2px 15px; border-top-left-radius: 3px;}
 .ind_more a{ color: #333;}
@@ -636,7 +638,7 @@ p#logo { float:left; position: relative; width:200px; height: 79px; margin: 15px
 .base-mini .head { padding:0 8px; height:33px; background-position: 0 -136px; background-repeat: repeat-x; }
 .base-mini .head h4 {color:#FFF; font-size:14px; line-height:30px; }
 .base-mini .head h4 .count { text-transform:none; color:#2f2f2f; white-space:nowrap; font-weight:normal; font-size:.95em; }
-.base-mini h5 { font-size:1em; }
+./*base-mini h5 { font-size:1em; } remove*/
 .base-mini ol li { padding:3px 4px; margin:0 auto; /*width:200px;*/ }
 .base-mini ol li.odd { background:#DBDBDB; }
 .base-mini ol li.even { background:#FAFAFA; }
@@ -669,7 +671,7 @@ PADDING-LEFT: 0px; PADDING-RIGHT: 0px; margin-bottom:5px;}
 .mini-product-tags .content a { color:#1b2d3b; } .mini-product-tags .content a:hover { color:#DD5500; }
 .mini-cart{}
 .mini-cart .subtotal { margin-top:5px; padding:2px 0; text-align:center; }
-.mini-cart h5 { margin:0; padding:6px 8px 2px 8px; }
+/*.mini-cart h5 { margin:0; padding:6px 8px 2px 8px; }*/
 .mini-cart .actions { padding:3px 10px; }
 .mini-cart .actions .form-button { margin-top:3px; margin-bottom:5px; }
 .mini-wishlist .head h4 { background-image:url(../images/icon_bell.gif); }
@@ -809,7 +811,7 @@ div.mini-newsletter{position: relative; margin: 15px 0;}
 /************************** Prices */
 /*.price { white-space:nowrap !important; }*/
 
-.price-box { padding:5px 0; font-weight: bold; }
+.price-box { padding:0px 0; /*font-weight: bold;*/ }
 .price-box .price { font-weight:bold; color:#c76200; }
 .price-box .list_price{color:#666666; text-decoration:line-through;}
 .price-box .list_price .price{ color:#a3a2a2; font-size:11px;}
@@ -920,9 +922,9 @@ a.minimal-price-link .price { font-weight:normal; color:#1e7ec8; }
 .category_review .list .sign_b{ bottom: 10px; right: 0}
 
 .catalog-listing { line-height:1.35em;  margin: 0 5px; overflow: hidden;}
-.catalog-listing h5 { margin:0; font-size: 11px; line-height:15px; overflow:hidden; }
+.catalog-listing h5 { margin:0; font-size: 12px; line-height:15px; overflow:hidden; font-weight: bold; color:#995a89; }
 .catalog-listing .listing-item h5{ height:15px; margin:0;}
-.catalog-listing h5 a{ text-decoration:none; }
+.catalog-listing h5 a{ text-decoration:none; color:#995a89; }
 .catalog-listing h5 a:hover{ color:#FF6600;}
 .catalog-listing .add-to { margin:15px 0 5px 0; color:#555; line-height:1.3em; font-size:.95em; font-weight:bold; position:relative; }
 .catalog-listing .add-to a { font-size:10px; font-weight:100; text-decoration:none; }
@@ -1082,7 +1084,7 @@ table.recently-list td { width:20%; }
 /* Grid Type */
 .listing-type-grid li.item { float:left; display: inline; width:138px; padding:12px 10px; line-height:1.6em; overflow:hidden; }
 .listing-type-grid .last { border-bottom:0; }
-.listing-type-grid .skuno{ /*font-size:10px;*/}
+.listing-type-grid .skuno{ /*font-size:10px;*/ margin-top:5px; margin-bottom:0px;}
 .listing-type-grid .price-box{ border-top: 1px solid #EFEFEF; border-bottom: 1px solid #EFEFEF; height: 20px; text-align: center;}
 .listing-type-grid .list_price, .listing-type-grid .our_price, .price-box .on_sale{ display: inline-block; zoom:1; *display:inline;}
 .listing-type-grid .list_price{ margin:0 5px 0 0;}
@@ -2729,3 +2731,24 @@ h1.bread-s{ font-size:10px; color:#333; display:inline;}
 .supp_midd{ margin:0 20px; text-align:center;}
 .supp_midd li{ display:inline; margin:0 5px;}*/
 .tvline_bann {padding-bottom: 15px}
+.width001 {
+	width:100px;
+	font-family:Century Gothic;
+	color:#663c5c;
+	font-size:12px;
+	margin-bottom: -8px;
+}
+size10 {
+	font-size:10px;
+}
+size11 {
+	font-size:11px;
+}
+size18 {
+	font-size:18px;
+}
+greyprice {
+	font-size:11px;
+	color:#999999;
+	text-decoration:line-through;
+}

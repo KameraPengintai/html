@@ -204,9 +204,15 @@
 	padding-left:15px;
 }
 .marginright {
+	margin-right:10px;
+}
+.marginright20 {
 	margin-right:20px;
 }
 .marginleft {
+	margin-left:10px;
+}
+.marginleft20 {
 	margin-left:20px;
 }
 .margintop15 {

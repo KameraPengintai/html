@@ -182,6 +182,9 @@
 	padding-right:5px;
 	background:#999999;
 }
+.font03 {
+	font-size:12px;
+}
 .prod a:link {
 	color:#ffffff;
 }
@@ -199,6 +202,9 @@
 	font-size:13px;
 	color:#3a003a;
 	border:solid 0px red;
+}
+.paddingtop15 {
+	padding-top:15px;
 }
 .paddingleft15 {
 	padding-left:15px;
@@ -427,4 +433,14 @@ yellow {
 }
 .hrgrey {
 	border:solid 1px #89898b;
+}
+.widthstyle01 {
+	width:100px;
+}
+.inputset01 {
+	display:inline;
+	margin:2px;
+}
+.trheight20 {
+	height:20px;
 }

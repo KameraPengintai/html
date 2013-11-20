@@ -541,7 +541,7 @@ p#logo { float:left; position: relative; width:200px; height: 79px; margin: 15px
 .ind_way_warp,
 .pagination li,
 .ind_review a.prev,
-.ind_review a.next{ background: url(../images/index_sprite.png) no-repeat; _background: url(../images/index_sprite.gif) no-repeat;}
+.ind_review a.next{ background: url(../images/shiping.png) no-repeat; _background: url(../images/index_sprite.gif) no-repeat;}
 .ind_bann_warp{ position: relative; width: 100%; }
 .ind_bann{ height: 265px; width: 100%; overflow: hidden; box-shadow: 1px 0 2px #CCC , -1px 0 2px #CCC;}
 .slides_container{ height: 265px;}
@@ -619,15 +619,15 @@ p#logo { float:left; position: relative; width:200px; height: 79px; margin: 15px
 .fallow_list li.b{ width: 63px; height: 32px; background-position: 0 -386px;}
 .fallow_list li.google_plugins{ width: 38px; height: 32px; background: none;}
 .ind_way_warp{position: relative; padding: 10px; margin: 10px 0; background-position: 0 -564px; background-repeat: repeat-x; border-bottom: 3px solid #EF9F03;}
-.ind_way_list{overflow: hidden; width: 650px; margin: 0 10px;}
-.ind_way_list li{ display: inline; float: left; width: 250px; height: 35px; padding:0 0 0 38px; margin: 10px 0;}
-.ind_way_list li.item_ship{ background-position: 3px -424px;}
-.ind_way_list li.item_return{ background-position: 0 -460px;}
-.ind_way_list li.item_customer{ background-position: 0 -492px;}
-.ind_way_list li.item_warranty{ background-position: 0 -525px;}
+.ind_way_list{overflow: hidden; width: 577px; margin: 0 10px;}
+.ind_way_list li{ display: inline; float: left; width: 210px; height: 45px; padding:0 0 0 71px; margin: 10px 0;}
+.ind_way_list li.item_ship{ background-position: 0px -10px;}
+.ind_way_list li.item_return{ background-position: 10px -112px;}
+.ind_way_list li.item_customer{ background-position: 0px -59px;}
+.ind_way_list li.item_warranty{ background-position: 18px -166px;}
 .ind_way_list li p{ font-size: 11px;}
 .ind_way_list li a{ color:#333; text-decoration:none;font-size: 11px; display:block}
-.ind_way_list li .tit{ font-size: 14px; font-weight: bold; color: #716E67;}
+.ind_way_list li .tit{ font-size: 14px; font-weight: bold; color: #716E67; margin: 0 0 0px; line-height:15px;}
 .ind_way_list li a:hover,.ind_way_list li a:hover .tit{ color:#E36F08}
 .ind_way_about{position: absolute; top:20px; right: 20px; width: 320px; font-size: 11px; line-height: 15px;}
 

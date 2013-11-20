@@ -447,3 +447,11 @@ yellow {
 .trheight20 {
 	height:20px;
 }
+VogueBold12 {
+	font-family:VogueBold, Myriad Pro;
+	font-size:12px;
+}
+VogueBold9 {
+	font-family:VogueBold, Myriad Pro;
+	font-size:10px;
+}

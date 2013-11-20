@@ -206,8 +206,20 @@
 .paddingtop15 {
 	padding-top:15px;
 }
+.paddingleft8 {
+	padding-left:8px;
+}
 .paddingleft15 {
 	padding-left:15px;
+}
+.paddingright8 {
+	padding-right:8px;
+}
+.paddingbottom8 {
+	padding-bottom:8px;
+}
+.paddingbottom16 {
+	padding-bottom:16px;
 }
 .marginright {
 	margin-right:10px;
@@ -339,6 +351,9 @@ purple02 {
 yellow {
 	color:#e6c419;
 }
+white {
+	color:#ffffff;
+}
 .background01 {
 	background:#e6c419;
 }
@@ -454,4 +469,66 @@ VogueBold12 {
 VogueBold9 {
 	font-family:VogueBold, Myriad Pro;
 	font-size:10px;
+}
+.yellowbar {
+	background:url(../images/yellowbar.png);
+	padding: 7px 0px 8px 8px;
+}
+.purplebar {
+	background:url(../images/purplebar.png);
+	padding: 7px 0px 8px 8px;
+}
+.hotdeals {
+}
+.hotdeals li {
+	width:200px;
+}
+.hotdeals h5 {
+    font-size: 15px;
+    line-height: 20px;
+}
+.hotdeals h6 {
+	font-size: 11px;
+    line-height: 12px;
+}
+.hotdeals_box {
+    margin: 0 auto;
+    position: relative;
+    width: 96%;
+}
+.hotdeals_box img {
+	height:80px;
+	width:auto;
+}
+.product {
+	text-align:center;
+	margin-top:20px;
+}
+.hdwidth {
+    color: #663C5C;
+    font-family: Century Gothic;
+    font-size: 11px;
+	line-height:15px;
+    margin-bottom: 0;
+    width: 95px;
+}
+size10 {
+    font-size: 10px;
+}
+size15 {
+    font-size: 15px;
+}
+.contentkp {
+	width:773px;
+	font-size:12px;
+}
+.contentkp h5 {
+    font-size: 15px;
+    line-height: 20px;
+}
+.contentkp h6 {
+	font-size: 14px;
+    line-height: 38px;
+	font-weight:bold;
+	color:#995a89;
 }

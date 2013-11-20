@@ -183,7 +183,10 @@
 	background:#999999;
 }
 .font03 {
-	font-size:12px;
+	font-size:17px;
+}
+.font04 {
+	font-size:20px;
 }
 .prod a:link {
 	color:#ffffff;
@@ -515,12 +518,16 @@ VogueBold9 {
 size10 {
     font-size: 10px;
 }
+size11 {
+    font-size: 11px;
+}
 size15 {
     font-size: 15px;
 }
 .contentkp {
 	width:773px;
 	font-size:12px;
+	min-height: 900px;
 }
 .contentkp h5 {
     font-size: 15px;
@@ -531,4 +538,20 @@ size15 {
     line-height: 38px;
 	font-weight:bold;
 	color:#995a89;
+}
+.demo {
+	background:#fff3b3;
+}
+.listdemo {
+	margin:13px;
+}
+.listdemo li {
+	display:inline;
+	float:left;
+	margin-left:6px;
+	margin-right:6px;
+	border:solid 1px #d9d9d9;
+}
+.widthdemo {
+	width:219px;
 }

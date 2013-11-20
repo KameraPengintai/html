@@ -630,7 +630,7 @@ p#logo { float:left; position: relative; width:200px; height: 79px; margin: 15px
 .ind_way_list li .tit{ font-size: 14px; font-weight: bold; color: #716E67; margin: 0 0 0px; line-height:15px;}
 .ind_way_list li a:hover,.ind_way_list li a:hover .tit{ color:#E36F08}
 .ind_way_about{position: absolute; top:20px; right: 20px; width: 320px; font-size: 11px; line-height: 15px;}
-
+.tot{line-height:13px;}
 /* ======================================================================index page end================================================== */
 
 /* Base Mini */

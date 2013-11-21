@@ -47,6 +47,9 @@
 .left {
 	float:left;
 }
+.align_left {
+	text-align:left;
+}
 .align_right {
 	text-align:right;
 }
@@ -182,11 +185,17 @@
 	padding-right:5px;
 	background:#999999;
 }
+.font12 {
+	font-size:12px;
+}
 .font03 {
 	font-size:17px;
 }
 .font04 {
 	font-size:20px;
+}
+.font12 {
+	font-size:12px;
 }
 .prod a:link {
 	color:#ffffff;
@@ -541,8 +550,17 @@ size10 {
 size11 {
     font-size: 11px;
 }
+size12 {
+    font-size: 12px;
+}
 size15 {
     font-size: 15px;
+}
+size17 {
+    font-size: 17px;
+}
+size20 {
+    font-size: 20px;
 }
 .contentkp {
 	width:773px;
@@ -574,4 +592,55 @@ size15 {
 }
 .widthdemo {
 	width:219px;
+}
+.kategori {
+	font-family:Century Gothic;
+	width:785px;
+	min-height: 900px;
+}
+.listkat {
+	margin:0px;
+}
+.listkat li {
+	display:inline;
+	float:left;
+	margin-left:2px;
+	margin-right:2px;
+	border:solid 1px #d9d9d9;
+	background:#ffffff;
+}
+.listkat img {
+    height: 100px;
+    width: auto;
+}
+.widthkat {
+    width: 174px;
+}
+.katwidth {
+    color: #663C5C;
+    font-family: Century Gothic;
+	line-height:15px;
+    margin-bottom: 0;
+    width: 86px;
+}
+.testi {
+	background:#e6e6e6;
+	font-family:Myriad Pro;
+	font-size:13px;
+	line-height:15px;
+	padding:15px 15px 1px 15px;
+}
+.testi p {
+	font-size:15px;
+}
+.keterangan {
+	font-family:Myriad Pro;
+	font-size:13px;
+	line-height:15px;
+}
+.keterangan h4 {
+	margin-top:10px;
+	margin-bottom:10px;
+	font-weight:bold;
+	color:#995a89;
 }

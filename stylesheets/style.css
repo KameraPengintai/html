@@ -466,12 +466,12 @@ white {
 	height:20px;
 }
 VogueBold12 {
-	font-family:Vogue;
-	font-size:12px;
+	font-family:Arial Rounded MT Bold;
+	font-size:11px;
 }
 VogueBold9 {
-	font-family:Vogue;
-	font-size:10px;
+	font-family:Arial Rounded MT Bold;
+	font-size:9px;
 }
 .yellowbar {
 	background:url(../images/yellowbar.png);

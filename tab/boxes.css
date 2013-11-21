@@ -627,7 +627,7 @@ p#logo { float:left; position: relative; width:200px; height: 79px; margin: 15px
 .ind_way_list li.item_warranty{ background-position: 18px -166px;}
 .ind_way_list li p{ font-size: 11px;}
 .ind_way_list li a{ color:#333; text-decoration:none;font-size: 11px; display:block}
-.ind_way_list li .tit{ font-size: 14px; font-weight: bold; color: #716E67; margin: 0 0 0px; line-height:15px;}
+.ind_way_list li .tit{ font-size: 14px; font-weight: bold; color: #716E67; margin: 0 0 0px; line-height:11px;}
 .ind_way_list li a:hover,.ind_way_list li a:hover .tit{ color:#E36F08}
 .ind_way_about{position: absolute; top:20px; right: 20px; width: 320px; font-size: 11px; line-height: 15px;}
 .tot{line-height:13px;}

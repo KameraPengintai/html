@@ -123,6 +123,20 @@
 	overflow: hidden;
 	border: 0px red solid;
 }
+.icon02 {
+	position: relative;
+	width: 33px;
+	height: 30px;
+	overflow: hidden;
+	border: 1px red solid;
+}
+.icon03{
+    position: relative;
+    width: 258px;
+    height: 207px;
+    overflow: hidden;
+    border: 0px solid #FF0000;
+}
 .mobile {
 	position: absolute;
 	top: 0px;
@@ -154,13 +168,6 @@
 	background:url(../images/top_tab.png);
 	background-repeat:no-repeat;
 	background-position:right 0px;
-}
-.icon02 {
-	position: relative;
-	width: 33px;
-	height: 30px;
-	overflow: hidden;
-	border: 1px red solid;
 }
 .account {
 	position: absolute;
@@ -248,6 +255,9 @@
 .margintop15 {
 	margin-top:15px;
 }
+.marginbottom8 {
+	margin-bottom:8px;
+}
 .search {
 	width:340px;
 	padding-top:3px;
@@ -288,6 +298,14 @@
 .bottom_radius {
 	border-bottom-right-radius:0.5em;
 	border-bottom-left-radius:0.5em;
+}
+.left_radius {
+	border-top-left-radius:0.5em;
+	border-bottom-left-radius:0.5em;
+}
+.right_radius {
+	border-top-right-radius:0.5em;
+	border-bottom-right-radius:0.5em;
 }
 .shadow {
 	-moz-box-shadow:-1px 2px 7px 2px #d8d8da;
@@ -344,9 +362,11 @@
 grey01 {
 	color:#666666;
 }
-
 grey02 {
 	color:#4c4c4c;
+}
+grey02 {
+	color:#808080;
 }
 blue {
 	color:#1b75bb;
@@ -598,6 +618,13 @@ size20 {
 	width:785px;
 	min-height: 900px;
 }
+.cust_pic {
+	background:#ffffff;
+}
+.cust_pic_centering {
+	margin-left:5px;
+	margin-right:6px;
+}
 .listkat {
 	margin:0px;
 }
@@ -643,4 +670,55 @@ size20 {
 	margin-bottom:10px;
 	font-weight:bold;
 	color:#995a89;
+}
+.paging {
+	background:url(../images/bg_paging.png);
+	font-family:Myriad Pro;
+	font-size:13px;
+	height:24px;
+	padding:1px 10px 1px 10px;
+}
+.num {
+    border: 1px solid #e6e6e6;
+    float: left;
+    font-family: Myriad Pro;
+    font-size: 13px;
+    line-height: 16px;
+    margin: 3px 1px 3px 4px;
+    text-align: center;
+    width: 19px;
+}
+.num:hover {
+    background:#faaf40;
+	color:#ffffff;
+}
+.basebuybox h5 {
+    font-size: 15px;
+    line-height: 20px;
+}
+.basebuybox ul {
+	margin-left:3px;
+	margin-right:3px;
+}
+.basebuybox li {
+	font-family:Myriad Pro;
+    font-size: 12px;
+    line-height: 16px;
+	color:#808080;
+	margin-bottom:5px;
+	padding-left:6px;
+}
+.basebuybox li:hover {
+    background:#faaf40;
+	color:#ffffff;
+}
+.basebuy {
+	background:#e6e6e6;
+	font-family:Myriad Pro;
+	font-size:14px;
+	padding-left:5px;
+	margin:3px;
+}
+.basebuylink {
+    color:#995a89;
 }

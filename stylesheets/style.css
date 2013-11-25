@@ -676,7 +676,7 @@ size20 {
 	font-family:Myriad Pro;
 	font-size:13px;
 	height:24px;
-	padding:1px 10px 1px 10px;
+	padding:2px 10px 0px 10px;
 }
 .num {
     border: 1px solid #e6e6e6;
@@ -721,4 +721,57 @@ size20 {
 }
 .basebuylink {
     color:#995a89;
+}
+.navi {
+	height:29px;
+	background:url(../images/bg_navi.png);
+	font-size:12px;
+}
+.navi ul {
+	padding:4px;
+}
+.navi li {
+	display:inline;
+	padding:4px;
+}
+.navi a {
+	color:#995a89;
+}
+.border_leftright {
+	border-left:solid 1px #b8b8b8;
+	border-right:solid 1px #b8b8b8;
+}
+
+/* form */
+.kp {
+	width: 107px;
+	height: 18px;
+	overflow: hidden;
+	background: url(../images/select_arrow_01.png) no-repeat right #ddd;
+	border: 1px solid #ccc;
+}
+.kp select {
+	width: 125px;
+	font-size:12px;
+	background: transparent;
+	line-height: 1;
+	border: 0;
+	-webkit-appearance: none;
+	color:#666666;
+}
+.kp_02 {
+	width: 45px;
+	height: 18px;
+	overflow: hidden;
+	background: url(../images/select_arrow_01.png) no-repeat right #ddd;
+	border: 1px solid #ccc;
+}
+.kp_02 select {
+	width: 65px;
+	font-size:12px;
+	background: transparent;
+	line-height: 1;
+	border: 0;
+	-webkit-appearance: none;
+	color:#666666;
 }

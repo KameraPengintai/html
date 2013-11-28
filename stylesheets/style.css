@@ -53,6 +53,9 @@
 .align_right {
 	text-align:right;
 }
+.textcenter {
+	text-align:center;
+}
 .margin0 {
 	margin: 0px 0px 0px 0px;
 }
@@ -312,6 +315,10 @@
 	-webkit-box-shadow:-1px 2px 7px 2px #d8d8da;
 	box-shadow:-1px 2px 7px 2px #d8d8da;
 }
+.top_radius02 {
+	border-top-left-radius:0.67em;
+	border-top-right-radius:0.67em;
+}
 .banner {
 	margin-top: 15px;
 	margin-bottom: 10px;
@@ -339,9 +346,6 @@
 	width:226px;
 	margin-bottom:4px;
     margin-top:4px;
-}
-.textcenter {
-	text-align:center;
 }
 .textbold {
 	font-weight:bold;
@@ -526,9 +530,16 @@ VogueBold9 {
 	background:url(../images/yellowbar.png);
 	padding: 7px 0px 8px 8px;
 }
+.yellowbar02 {
+	background:url(../images/yellowbar.png);
+}
 .purplebar {
 	background:url(../images/purplebar.png);
 	padding: 7px 0px 8px 8px;
+}
+.greybar {
+	background:url(../images/bg_grey.png);
+	padding: 9px 0px 9px 8px;
 }
 .hotdeals {
 }
@@ -774,4 +785,54 @@ size20 {
 	border: 0;
 	-webkit-appearance: none;
 	color:#666666;
+}
+.stepbelanja01{
+}
+.stepbelanja01 h6 {
+	font-size: 13px;
+    line-height: 12px;
+}
+.stepbelanja01 a {
+	font-family:Myriad Pro;
+	font-size:12px;
+	color:#3a003a;
+	display:block;
+	width:182px;
+	margin:3px 8px 3px 8px;
+	border-bottom:solid 1px #d6d6d6;
+}
+.forum {
+	font-size:12px;
+}
+.forum a {
+	font-family:Myriad Pro;
+	font-size:11px;
+	color:#4c4c4c;
+	line-height:12px;
+	font-weight:bold;
+	display:block;
+	width:182px;
+	margin:3px 8px 3px 8px;
+	border-bottom:solid 1px #d6d6d6;
+}
+.stepbelanja02 {
+    min-height: 433px;
+    width: 773px;
+}
+.stepbelanja02 h6 {
+	font-size: 13px;
+    line-height: 12px;
+}
+
+/* accordion */
+.ui-accordion-header-active {
+	background:url(../images/bg_grey.png);
+	padding: 9px 0px 9px 8px;
+}
+.ui-corner-all {
+	background:url(../images/bg_grey_non.png);
+	padding: 9px 0px 9px 8px;
+	border-bottom-right-radius:0.5em;
+	border-bottom-left-radius:0.5em;
+	margin-bottom:8px;
 }

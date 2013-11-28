@@ -204,8 +204,8 @@
 .font04 {
 	font-size:20px;
 }
-.font12 {
-	font-size:12px;
+.font13 {
+	font-size:13px;
 }
 .prod a:link {
 	color:#ffffff;
@@ -257,6 +257,9 @@
 }
 .margintop15 {
 	margin-top:15px;
+}
+.marginbottom3 {
+	margin-bottom:3px;
 }
 .marginbottom8 {
 	margin-bottom:8px;
@@ -471,19 +474,42 @@ white {
 .slides_container{ height: 265px;}
 .ind_s_bann{ position: absolute; right: 0; top:0; z-index: 6;}
 
-/*login/register*/
-.login {
+/*form*/
+button {
 	margin:0px;
-	background:url(../images/login.png);
-	background-repeat:no-repeat;
-	width:61px;
-	height:27px;
+	background:url(../images/bg_button.png);
 	font-family:Myriad Pro;
 	font-size:13px;
-	border:0px;
 	color:#fff;
-	text-shadow:0px 0px;
-	padding:0px;
+	border:0px;
+	border-radius:0.25em;
+	-moz-border-radius:0.25em;
+	-webkit-border-radius:0.25em;
+	padding:4px;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+	border: 1px solid #ccc;
+	padding: 4px 4px;
+	outline: none;
+	-moz-border-radius:0.2em;
+	-webkit-border-radius:0.2em;
+	border-radius:0.2em;
+	font: 12px "Myriad Pro", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #777;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+	border: 1px solid #aaa;
+	color: #444;
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,.2);
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.2);
+	box-shadow:  0 0 3px rgba(0,0,0,.2);
 }
 .tombol_01 {
 	margin:0px 0px -5px -4px;
@@ -505,6 +531,7 @@ white {
 	text-shadow:0px 0px;
 	padding:0px;
 }
+
 .hrgrey {
 	border:solid 1px #89898b;
 }
@@ -823,6 +850,16 @@ size20 {
 	font-size: 13px;
     line-height: 12px;
 }
+.stepbelanja03 {
+    width: 366px;
+	font-size:12px;
+}
+.stepbelanja03 ul {
+    margin-bottom:0px;
+}
+.stepbelanja03 li {
+    margin-bottom:0px;
+}
 
 /* accordion */
 .ui-accordion-header-active {
@@ -831,8 +868,59 @@ size20 {
 }
 .ui-corner-all {
 	background:url(../images/bg_grey_non.png);
-	padding: 9px 0px 9px 8px;
+	padding: 10px 0px 11px 8px;
+	border:solid 1px #ababab;
 	border-bottom-right-radius:0.5em;
 	border-bottom-left-radius:0.5em;
 	margin-bottom:8px;
+}
+
+.number {
+	font-family:Century Gothic;
+	font-size:14px;
+	color:#663c5c;
+	padding-left:15px;
+	padding-right:5px;
+}
+.desc {
+	font-family:Myriad Pro;
+	font-size:11px;
+	line-height:16px;
+}
+.price {
+	font-family:Century Gothic;
+	font-size:14px;
+	color:#663c5c;
+	padding-right:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.pricetotal {
+	font-family:Century Gothic;
+	font-size:18px;
+	font-weight:bold;
+	color:#998211;
+	padding-right:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.konfirm01 {
+	font-size:12px;
+	line-height:16px;
+	margin-bottom:0px;
+}
+.bordertopbottom {
+	border-top:solid 1px #89898b;
+	border-bottom:solid 1px #89898b;
+}
+.borderleftright {
+	border-left:solid 1px #89898b;
+	border-right:solid 1px #89898b;
+}
+.borderleft {
+	border-left:solid 1px #89898b;
+}
+.heading {
+	font-size:12px;
+	font-weight:bold;
 }

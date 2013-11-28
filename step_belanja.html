@@ -49,10 +49,11 @@
 
 	<script>
 	$(function() {
-		$( "#accordion" ).accordion();
+		$( "#accordion" ).accordion({
+		  heightStyle: "content"
+		});
 	});
 	</script>
-  
 </head>
 <body>
 <div class="header_menu">
@@ -166,50 +167,192 @@
 			
 			<div id="accordion">
 				<h6 class="top_radius shadow"><strong><white>1. Metode Checkout</white></strong></h6>
-				<div class="marginbottom8 paddingleft8 paddingright8 paddingbottom16 bottom_radius shadow newproduct">
-					<p>
-					Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-					ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-					amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-					odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-					</p>
+				<div class="marginbottom8 paddingleft8 paddingright8 paddingbottom16 paddingtop15 bottom_radius shadow newproduct">
+					<div class="stepbelanja03 marginright20 left">
+						<strong>CHECKOUT SEBAGAI TAMU ATAU DAFTAR BARU</strong>
+						<hr class="remove-bottom">
+						Daftarlah bersama kami untuk mendapatkan kemudahan:
+						<ul>
+							<li><input type="radio"> Checkout sebagai tamu</li>
+							<li><input type="radio"> Daftar baru</li>
+						</ul>
+						<strong>Daftar Baru dan hemat waktu kamu !</strong><br />
+						Dengan daftar baru, maka kamu akan memperoleh beberapa kemudahan yaitu:
+						<ul>
+							<li>- Cepat dan mudah untuk Checkout</li>
+							<li>- Akses yang lebih cepat untuk history pembelian dan status belanja kamu.</li>
+						</ul>
+						<div class="align_right">
+							<button>Continue</button>
+						</div>
+					</div>
+					<div class="stepbelanja03 left">
+						<strong>LOGIN</strong>
+						<hr class="remove-bottom">
+						<strong>Sudah registrasi?</strong><br />
+						Silahkan login di bawah ini:
+						<form>
+							<span class="skeleton">
+							<label for="regularInput">Alamat Email*</label><input type="text" id="regularInput" style="width:265px;" />
+							<label for="regularInput">Password*</label><input type="password" id="regularInput" style="width:265px;" />
+							</span>
+							<div class="align_right">
+								<button>Login</button>
+							</div>
+						</form>
+					</div>
+					<div class="clear"></div>
 				</div>
-				<h6 class="top_radius shadow"><strong><white>2. Metode Checkout</white></strong></h6>
-				<div class="marginbottom8 paddingleft8 paddingright8 paddingbottom16 bottom_radius shadow newproduct">
-					<p>
-					Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
-					purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
-					velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
-					suscipit faucibus urna.
-					</p>
+				<h6 class="top_radius shadow"><strong><white>2. Informasi Billing</white></strong></h6>
+				<div class="marginbottom8 paddingleft8 paddingright8 paddingbottom16 paddingtop15 bottom_radius shadow newproduct">
+					<form action="" method="post" name="Login">
+						<table class="">
+							<tr>
+								<td><strong><purple01>Personal Information</purple01></strong></td><td>&nbsp;</td>
+							</tr>
+							<tr class="font13">
+								<td>Nama Lengkap</td><td>: <input type="text" id="regularInput" style="width:265px; display:inline; margin:1px;" /></td>
+							</tr>
+							<tr class="font13">
+								<td>Alamat lengkap</td><td>: <input type="text" id="regularInput" style="width:557px; display:inline; margin:1px;"/></td>
+							</tr>
+							<tr class="font13">
+								<td>&nbsp;</td><td>: <input type="text" id="regularInput" style="width:557px; display:inline; margin:1px;" /></td>
+							</tr>
+							<tr class="font13">
+								<td>Alamat email</td><td>: <input type="text" id="regularInput" style="width:265px; display:inline; margin:1px;" /></td>
+							</tr>
+							<tr class="font13">
+								<td>Propinsi</td><td>: <input type="text" id="regularInput" style="width:265px; display:inline; margin:1px;" /></td>
+							</tr>
+							<tr class="font13">
+								<td>Kota</td><td>: <input type="text" id="regularInput" style="width:265px; display:inline; margin:1px;" /></td>
+							</tr>
+							<tr class="font13">
+								<td>Kode pos</td><td>: <input type="text" id="regularInput" style="width:265px; display:inline; margin:1px;" /></td>
+							</tr>
+							<tr class="font13">
+								<td>No. HP</td><td>: <input type="text" id="regularInput" style="width:265px; display:inline; margin:1px;" /></td>
+							</tr>
+							<tr class="font13 align_right">
+								<td>&nbsp;</td><td><button type="submit">Submit</button></td>
+							</tr>
+						</table>
+					</form>
 				</div>
-				<h6 class="top_radius shadow"><strong><white>3. Metode Checkout</white></strong></h6>
-				<div class="marginbottom8 paddingleft8 paddingright8 paddingbottom16 bottom_radius shadow newproduct">
-					<p>
-					Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
-					Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
-					ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
-					lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
-					</p>
-					<ul>
-						<li>List item one</li>
-						<li>List item two</li>
-						<li>List item three</li>
-					</ul>
+				<h6 class="top_radius shadow"><strong><white>3. Metode Pengiriman</white></strong></h6>
+				<div class="marginbottom8 paddingleft8 paddingright8 paddingbottom16 paddingtop15 bottom_radius shadow newproduct">
+					<form action="" method="post" name="Login">
+						<table class="">
+							<tr>
+								<td><strong><purple01>Personal Information</purple01></strong></td><td>&nbsp;</td>
+							</tr>
+							<tr class="font13">
+								<td>Nama Lengkap</td><td>: <input type="text" id="regularInput" style="width:265px; display:inline; margin:1px;" /></td>
+							</tr>
+							<tr class="font13">
+								<td>Alamat lengkap</td><td>: <input type="text" id="regularInput" style="width:557px; display:inline; margin:1px;"/></td>
+							</tr>
+							<tr class="font13">
+								<td>&nbsp;</td><td>: <input type="text" id="regularInput" style="width:557px; display:inline; margin:1px;" /></td>
+							</tr>
+							<tr class="font13">
+								<td>Alamat email</td><td>: <input type="text" id="regularInput" style="width:265px; display:inline; margin:1px;" /></td>
+							</tr>
+							<tr class="font13">
+								<td>Propinsi</td><td>: <input type="text" id="regularInput" style="width:265px; display:inline; margin:1px;" /></td>
+							</tr>
+							<tr class="font13">
+								<td>Kota</td><td>: <input type="text" id="regularInput" style="width:265px; display:inline; margin:1px;" /></td>
+							</tr>
+							<tr class="font13">
+								<td>Kode pos</td><td>: <input type="text" id="regularInput" style="width:265px; display:inline; margin:1px;" /></td>
+							</tr>
+							<tr class="font13">
+								<td>No. HP</td><td>: <input type="text" id="regularInput" style="width:265px; display:inline; margin:1px;" /></td>
+							</tr>
+							<tr class="font13">
+								<td>Pengiriman dengan</td><td>: <input type="text" id="regularInput" style="width:265px; display:inline; margin:1px;" /></td>
+							</tr>
+							<tr class="font13 align_right">
+								<td>&nbsp;</td><td><button type="submit">Submit</button></td>
+							</tr>
+						</table>
+					</form>
 				</div>
-				<h6 class="top_radius shadow"><strong><white>4. Metode Checkout</white></strong></h6>
-				<div class="marginbottom8 paddingleft8 paddingright8 paddingbottom16 bottom_radius shadow newproduct">
-					<p>
-					Cras dictum. Pellentesque habitant morbi tristique senectus et netus
-					et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
-					faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
-					mauris vel est.
-					</p>
-					<p>
-					Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
-					Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-					inceptos himenaeos.
-					</p>
+				<h6 class="top_radius shadow"><strong><white>4. Informasi Pembelian</white></strong></h6>
+				<div class="marginbottom8 paddingleft8 paddingright8 paddingbottom16 paddingtop15 bottom_radius shadow newproduct">
+					<table width="100%" class="marginbottom8">
+						<tr class="bordertopbottom heading" align="center">
+							<td>Qty</td>
+							<td class="borderleftright">Foto Produk</td>
+							<td class="borderleftright">Deskripsi</td>
+							<td width="150">Total harga</td>
+						</tr>
+						<tr class="bordertopbottom">
+							<td class="number">1</td>
+							<td class="borderleftright"><img style="height:90px; width:auto; vertical-align:middle;" src="images/camera.png"></td>
+							<td class="borderleftright paddingleft8">
+								<strong><purple02>4CH H.264 Full D1 DVR Complete Surveillance Kit with 4 Day Night 480TVL Cameras</purple02></strong><br />
+								<grey02>IPCAMZE9909</grey02>
+							</td>
+							<td align="right" class="price">Rp. 595,000,-</td>
+						</tr>
+						<tr class="bordertopbottom">
+							<td colspan="3">
+								<strong>Biaya Pengiriman</strong><br />
+								<i>ke Jl. Bahagia Sekali Super Duper No.9 A Jakarta Utara Indonesia (1 kg)</i>
+							</td>
+							<td align="right" class="price borderleft">Rp. 8,000,-</td>
+						</tr>
+						<tr>
+							<td colspan="3" align="right">
+								<strong><grey01>Total Belanja</grey01></strong>&nbsp;&nbsp;&nbsp;
+							</td>
+							<td align="right" class="pricetotal borderleft">Rp. 603,000,-</td>
+						</tr>
+					</table>
+					<div class="align_right">
+						<button style="width:100px;">Edit</button>&nbsp;&nbsp;&nbsp;&nbsp;<button style="width:100px;">Continue</button>
+					</div>
+				</div>
+				<h6 class="top_radius shadow"><strong><white>5. Konfirmasi Pembelian</white></strong></h6>
+				<div class="marginbottom8 paddingleft8 paddingright8 paddingbottom16 paddingtop15 bottom_radius shadow newproduct">
+					Perencanaan pembelian kamu dengan list di bawah ini
+					<table width="100%" class="marginbottom3">
+						<tr class="hrgrey">
+							<td class="number">1</td>
+							<td><img style="height:50px; width:auto; vertical-align:middle;" src="images/camera.png"></td>
+							<td class="desc">
+								<strong><purple02>4CH H.264 Full D1 DVR Complete Surveillance Kit with 4 Day Night 480TVL Cameras</purple02></strong><br />
+								<grey02>IPCAMZE9909</grey02>
+							</td>
+							<td align="right" class="price">Rp. 595,000,-</td>
+						</tr>
+					</table>
+					<table width="100%">
+						<tr class="hrgrey">
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td width="600" align="right"><strong><grey01>Biaya pengiriman</grey01></strong></td>
+							<td align="right" class="price">Rp. 8,000,-</td>
+						</tr>
+						<tr>
+							<td>&nbsp;</td>
+							<td>&nbsp;</td>
+							<td width="600" align="right"><strong><grey01>Total Belanja</grey01></strong></td>
+							<td align="right" class="pricetotal">Rp. 603,000,-</td>
+						</tr>
+					</table>
+					Sudah berhasil dikonfirmasi, silakan mentransfer sesuai jumlah diatas ke salah satu rekening kami sebagai berikut :
+					<img src="images/rekening.png">
+					<hr class="remove-bottom">
+					<strong><purple01>Setelah melakukan pembayaran, mohon untuk konfirmasi pembayaran yang telah anda lakukan dengan cara :</purple01></strong>
+					<ol>
+						<li class="konfirm01">Konfirmasi via KameraPengintai.com, dengan cara masukan User ID dan password anda untuk konfirmasi pembayaran di KameraPengintai.com</li>
+						<li class="konfirm01">Konfirmasi via SMS ke nomor 0878-789-22020</li>
+					</ol>
+					<div class="align_right"><button>Selesai</button></div>
 				</div>
 			</div>
 				

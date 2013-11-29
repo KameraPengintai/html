@@ -993,3 +993,27 @@ size20 {
 	background:#f3f3f3;
 	min-height:36px;
 }
+
+.konsjgbl {
+}
+.konsjgbl li {
+	width:200px;
+	float:left
+}
+.konsjgbl h5 {
+    font-size: 15px;
+    line-height: 20px;
+}
+.konsjgbl h6 {
+	font-size: 11px;
+    line-height: 12px;
+}
+.konsjgbl_box {
+    margin: 0 auto;
+    position: relative;
+    width: 96%;
+}
+.konsjgbl_box img {
+	height:80px;
+	width:auto;
+}

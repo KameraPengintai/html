@@ -249,11 +249,17 @@
 .marginright {
 	margin-right:10px;
 }
+.marginright15 {
+	margin-right:15px;
+}
 .marginright20 {
 	margin-right:20px;
 }
 .marginleft {
 	margin-left:10px;
+}
+.marginleft15 {
+	margin-left:15px;
 }
 .marginleft20 {
 	margin-left:20px;
@@ -266,6 +272,12 @@
 }
 .marginbottom8 {
 	margin-bottom:8px;
+}
+.marginbottom15 {
+	margin-bottom:15px;
+}
+.marginbottom20 {
+	margin-bottom:20px;
 }
 .search {
 	width:340px;
@@ -864,12 +876,12 @@ size20 {
     margin-bottom:0px;
 }
 
-/* accordion */
-.ui-accordion-header-active {
+/* accordion step belanja */
+#accordion .ui-accordion-header-active {
 	background:url(../images/bg_grey.png);
 	padding: 9px 0px 9px 8px;
 }
-.ui-corner-all {
+#accordion .ui-corner-all {
 	background:url(../images/bg_grey_non.png);
 	padding: 10px 0px 11px 8px;
 	border:solid 1px #ababab;
@@ -877,6 +889,66 @@ size20 {
 	border-bottom-left-radius:0.5em;
 	margin-bottom:8px;
 }
+/* accordion step belanja */
+
+/* tab detail produk */
+#tabs ul {
+	background:url(../images/bg_tab_detail_prod.png);
+	border-bottom:solid 2px #995a89;
+	padding-left:80px;
+	margin-bottom:0px;
+}
+#tabs li {
+	float:left;
+	margin-bottom:0px;
+}
+#tabs .ui-state-default {
+	padding:18px 30px 12px 30px;
+}
+#tabs .ui-tabs-active {
+	background:#995a89;
+	color:#ffffff !important;
+	border-top-right-radius:0.5em;
+	border-top-left-radius:0.5em;
+	padding:18px 30px 12px 30px;
+}
+#tabs .ui-tabs-panel {
+	background:#ffffff;
+    font-size: 13px;
+    line-height: 16px;
+	border-left:solid 1px #d2cccc;
+	border-bottom:solid 1px #d2cccc;
+	border-right:solid 1px #d2cccc;
+	padding:20px;
+}
+#tabs .ui-corner-bottom {
+	border-bottom-right-radius:0.5em;
+	border-bottom-left-radius:0.5em;
+}
+#tabs h4 {
+	font-weight:bold;
+}
+#tabs a {
+	color:#999999;
+	font-weight:bold;
+	font-size:16px;
+}
+#tabs a:hover {
+	color:#ffffff;
+	font-weight:bold;
+	font-size:16px;
+}
+#tabs a:focus {
+	color:#ffffff;
+	font-weight:bold;
+	font-size:16px;
+}
+#tabs a:visited {
+	color:#ffffff;
+	font-weight:bold;
+	font-size:16px;
+}
+/* tab detail produk*/
 
 .number {
 	font-family:Century Gothic;
@@ -997,16 +1069,26 @@ size20 {
 .konsjgbl {
 }
 .konsjgbl li {
-	width:200px;
-	float:left
+	width:222px;
+	float:left;
+	margin-left:20px;
+	margin-right:0px;
+}
+.konsjgbl h4 {
+	background:url(../images/bg_konsjgbl.png);
+	font-family:Myriad Pro;
+    font-size: 17px;
+    line-height: 20px;
+	padding:15px;
+	border:solid 1px #ffffff;
 }
 .konsjgbl h5 {
     font-size: 15px;
     line-height: 20px;
 }
 .konsjgbl h6 {
-	font-size: 11px;
-    line-height: 12px;
+	font-size: 13px;
+    line-height: 16px;
 }
 .konsjgbl_box {
     margin: 0 auto;
@@ -1014,6 +1096,91 @@ size20 {
     width: 96%;
 }
 .konsjgbl_box img {
-	height:80px;
+	height:120px;
 	width:auto;
+}
+.hkonsjgbl_width {
+    color: #663C5C;
+    font-family: Century Gothic;
+    font-size: 12px;
+    line-height: 17px;
+    margin-bottom: 0;
+    width: 105px;
+}
+.ulasan {
+}
+.ulasan h4 {
+	font-family:Myriad Pro;
+    font-size: 19px;
+    line-height: 20px;
+	padding:15px;
+}
+.ulasan h6 {
+	background:#e6e6e6;
+	font-family:Myriad Pro;
+    font-size: 14px;
+    line-height: 20px;
+	padding:7px;
+	margin-left:15px;
+	margin-right:15px;
+}
+.ulasan img {
+	vertical-align:middle;
+}
+.rating01 {
+	font-size:12px;
+	padding:10px 7px 0px 7px;
+	margin-left:15px;
+	margin-right:15px;
+}
+.rating02 {
+	font-size:12px;
+	padding:7px;
+	margin-left:15px;
+	margin-right:15px;
+}
+.ulasanpaging {
+	width:375px;
+}
+.ulasanpaging01 {
+	width:160px;
+}
+.warranty {
+	background:url(../images/warranty.png);
+	height:153px;
+}
+.warranty h5 {
+	font-size:16px;
+	color:#e6c419;
+	padding-top:15px;
+	padding-left:15px;
+}
+.warranty p {
+	margin-right:150px;
+	padding-left:15px;
+	font-size:12px;
+	color:#ffffff;
+	line-height:16px;
+}
+.detailprod {
+	background:#ffffff;
+}
+.detailprodimg {
+	width:505px;
+}
+.detailprodesc {
+	width:479px;
+	padding:5px;
+	color:#cccccc;
+}
+.detailprodesc h4 {
+	font-weight:bold;
+}
+.detailprodesc h5 {
+	font-weight:bold;
+	color:#999999;
+}
+.detailprodesc a {
+	font-size:12px;
+	color:#995a89;
 }

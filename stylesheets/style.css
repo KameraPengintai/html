@@ -629,6 +629,9 @@ size11 {
 size12 {
     font-size: 12px;
 }
+size13 {
+    font-size: 13px;
+}
 size15 {
     font-size: 15px;
 }
@@ -947,11 +950,6 @@ size32 {
 	font-weight:bold;
 	font-size:16px;
 }
-#tabs a:focus {
-	color:#ffffff;
-	font-weight:bold;
-	font-size:16px;
-}
 #tabs a:visited {
 	color:#ffffff;
 	font-weight:bold;
@@ -1074,7 +1072,6 @@ size32 {
 	background:#f3f3f3;
 	min-height:36px;
 }
-
 .konsjgbl {
 }
 .konsjgbl li {
@@ -1178,8 +1175,8 @@ size32 {
 	width:505px;
 }
 .detailprodesc {
-	width:479px;
-	padding:5px;
+	width:468px;
+	padding:10px;
 	color:#4c4c4c;
 }
 .detailprodesc h4 {
@@ -1196,14 +1193,29 @@ size32 {
 .detailprodesc select {
 	border-radius:8px;
 	margin-bottom:10px;
-	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 	background: -webkit-linear-gradient(#ffffff, #dedfe0); /* For Safari */
 	background: -o-linear-gradient(#ffffff, #dedfe0); /* For Opera 11.1 to 12.0 */
 	background: -moz-linear-gradient(#ffffff, #dedfe0); /* For Firefox 3.6 to 15 */
 	background: linear-gradient(#ffffff, #dedfe0); /* Standard syntax */
 }
+.detailprodesc button {
+	background: url("../images/bg_button.png");
+	font-size:16px;
+	color:#ffffff;
+	width:171px;
+	border-radius:11px;
+	margin-bottom:10px;
+}
 .hargalama {
 	color:#cccccc;
+	text-decoration:line-through;
+}
+.discount {
+	color:#663c5c;
 }
 .harga {
+	color:#663c5c;
+	font-weight:bold;
+	padding-bottom:10px;
 }

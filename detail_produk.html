@@ -23,6 +23,8 @@
 	<link rel="stylesheet" href="stylesheets/layout.css">
 	<link rel="stylesheet" href="stylesheets/style.css">
 	<link rel="stylesheet" href="stylesheets/font/font.css">
+	
+	<link rel="stylesheet" href="stylesheets/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
 
 	<!--kategori-->
 	<link rel="stylesheet" type="text/css" href="cssmenu/menu_source/styles.css"/>
@@ -45,13 +47,56 @@
 	<!--jquery-->
 	<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
 	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
 	<!--jquery-->
 
 	<script>
 	$(function() {
 		$( "#tabs" ).tabs();
 	});
+	
+    $(document).ready(function(){
+        $('a[rel^="prettyPhoto"]').prettyPhoto({
+            // any configuration options as per the online documentation.
+        });
+    });
 	</script>
+
+	<style type="text/css" media="screen">
+		* { margin: 0; padding: 0; }
+				
+		.gallery h1 { font-family: Georgia; font-style: italic; margin-bottom: 10px; }
+		
+		.gallery h2 {
+			font-family: Georgia;
+			font-style: italic;
+			margin: 25px 0 5px 0;
+		}
+		
+		.gallery p { font-size: 1.2em; }
+		
+		.gallery ul { display: inline; }
+		.gallery li { display: inline; }
+		.gallery img { border: solid 1px #eaeaea;}
+		.gallery img:hover { border: solid 1px #cccccc;}
+		
+		.wide {
+			border-bottom: 1px #000 solid;
+			width: 4000px;
+		}
+		
+		.fleft { float: left; margin: 0 20px 0 0; }
+		
+		.cboth { clear: both; }
+		
+		#main {
+			background: #fff;
+			margin: 0 auto;
+			padding: 30px;
+			width: 1000px;
+		}
+	</style>
+
 
 </head>
 <body>
@@ -155,6 +200,13 @@
 	<div class="fixwidth02 top_radius bottom_radius shadow margintop15 detailprod">
 		<div class="left detailprodimg textcenter">
 			<img src="images/big_product.png">
+			<ul class="gallery clearfix">
+				<li><a href="images/produk/amp_01.png" rel="prettyPhoto[gallery2]" title="Description on a single line."><img src="images/produk/amp_01.png" width="auto" height="60" alt="This is a pretty long title" /></a></li>
+				<li><a href="images/produk/big_product.png" rel="prettyPhoto[gallery2]" title="Description on two lines."><img src="images/produk/big_product.png" width="auto" height="60" alt="" /></a></li>
+				<li><a href="images/produk/camera.png" rel="prettyPhoto[gallery2]" title="Description on two lines."><img src="images/produk/camera.png" width="auto" height="60" alt="" /></a></li>
+				<li><a href="images/produk/camera_02.png" rel="prettyPhoto[gallery2]" title="Description on two lines."><img src="images/produk/camera_02.png" width="auto" height="60" alt="" /></a></li>
+				<li><a href="images/produk/camera_03.png" rel="prettyPhoto[gallery2]" title="Description on two lines."><img src="images/produk/camera_03.png" width="auto" height="60" alt="" /></a></li>
+			</ul>
 		</div>
 		<div class="left detailprodesc align_right">
 			<h4>4CH H.264 Full D1 DVR Complete Surveillance Kit with 4 Day Night 480TVL Cameras</h4>
@@ -169,6 +221,12 @@
 				<img src="images/spek_h264.png">
 				<img src="images/spek_alongday.png">
 				<img src="images/spek_waterproof.png">
+			</div>
+			<div>
+			<strong><size13>Choose Hard Drive</size13></strong>
+			</div>
+			<div class="hd">
+			<a class="selected" href="#">500 GB Hard Drive</a><a class="nonselected" href="#">No Hard Drive</a>
 			</div>
 			<div>
 				<strong><size13>Pilihan DVR-DVR*</size13></strong>

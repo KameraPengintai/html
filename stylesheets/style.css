@@ -955,6 +955,11 @@ size32 {
 	font-weight:bold;
 	font-size:16px;
 }
+#tabs a:focus {
+	color:#ffffff;
+	font-weight:bold;
+	font-size:16px;
+}
 /* tab detail produk*/
 
 .number {
@@ -1218,4 +1223,26 @@ size32 {
 	color:#663c5c;
 	font-weight:bold;
 	padding-bottom:10px;
+}
+.selected {
+	padding:10px;
+	border-radius:2px;
+	border:solid 2px #93e800;
+}
+.nonselected {
+	padding:10px;
+	border-radius:2px;
+	border:solid 1px #cccccc;
+	margin-left:5px;
+}
+.nonselected:hover {
+	padding:10px;
+	border-radius:2px;
+	border:solid 1px #93e800;
+	margin-left:5px;
+}
+.hd {
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    padding-top: 5px;
 }

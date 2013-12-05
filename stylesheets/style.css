@@ -718,6 +718,32 @@ size32 {
     margin-bottom: 0;
     width: 86px;
 }
+.listprod {
+	margin:0px;
+}
+.listprod li {
+    font-family: Century Gothic;
+	display:inline;
+	float:left;
+	margin-left:2px;
+	margin-right:2px;
+	border:solid 0px #d9d9d9;
+	background:#ffffff;
+}
+.listprod img {
+    height: 100px;
+    width: auto;
+}
+.listprodtop {
+	background:#ebebeb;
+	border-bottom:solid 1px #d9d9d9;
+	height:5px;
+}
+.listprodbottom {
+	background:#ebebeb;
+	border-top:solid 1px #d9d9d9;
+	height:5px;
+}
 .testi {
 	background:#e6e6e6;
 	font-family:Myriad Pro;

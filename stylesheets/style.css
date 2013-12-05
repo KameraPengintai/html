@@ -267,6 +267,9 @@
 .marginleft20 {
 	margin-left:20px;
 }
+.margintop8 {
+	margin-top:8px;
+}
 .margintop15 {
 	margin-top:15px;
 }
@@ -996,17 +999,6 @@ size32 {
 	line-height:16px;
 	margin-bottom:0px;
 }
-.bordertopbottom {
-	border-top:solid 1px #89898b;
-	border-bottom:solid 1px #89898b;
-}
-.borderleftright {
-	border-left:solid 1px #89898b;
-	border-right:solid 1px #89898b;
-}
-.borderleft {
-	border-left:solid 1px #89898b;
-}
 .supportmenu {
 	font-family:Myriad Pro;
 	font-size:12px;
@@ -1245,4 +1237,106 @@ size32 {
     margin-bottom: 5px;
     padding-bottom: 10px;
     padding-top: 5px;
+}
+/*table*/
+.tableshop {
+}
+.tableshopprodimg {
+	height:60px;
+	width:auto;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.tableshop td {
+	vertical-align:middle;
+}
+.tableshop button {
+	font-size:15px;
+}
+.tableshop select {
+	border-radius:8px;
+	margin-bottom:10px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+	background: -webkit-linear-gradient(#ffffff, #dedfe0); /* For Safari */
+	background: -o-linear-gradient(#ffffff, #dedfe0); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#ffffff, #dedfe0); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#ffffff, #dedfe0); /* Standard syntax */
+}
+.checkoutbotton {
+	background:url(../images/bg_button_purple.png);
+}
+.tablehead {
+	text-align:center;
+	font-weight:bold;
+	font-size:13px;
+	color:#666666;
+	background: -webkit-linear-gradient(#eaebeb, #ffffff); /* For Safari */
+	background: -o-linear-gradient(#eaebeb, #ffffff); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#eaebeb, #ffffff); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#eaebeb, #ffffff); /* Standard syntax */
+}
+.tabletopborder {
+	border-top:solid 2px #89898b;
+}
+.tabledesc {
+	font-weight:bold;
+	font-size:13px;
+	color:#3a003a;
+}
+.bordertopbottom {
+	border-top:solid 1px #89898b;
+	border-bottom:solid 1px #89898b;
+}
+.borderleftright {
+	border-left:solid 1px #89898b;
+	border-right:solid 1px #89898b;
+}
+.borderleft {
+	border-left:solid 1px #89898b;
+}
+shopharga {
+	font-family:Century Gothic;
+	font-size:14px;
+	color:#3a003a;
+}
+shophargalama {
+	font-family:Century Gothic;
+	font-size:13px;
+	color: #CCCCCC;
+	text-decoration: line-through;
+}
+.tableket {
+	font-size: 13px;
+	font-weight: bold;
+	color: #666666;
+}
+.tabletotal {
+	font-family:Century Gothic;
+	font-size:17px;
+	font-weight: bold;
+	color:#998211;
+}
+.tablebg01 {
+	background: -webkit-linear-gradient(#e6e7e8, #e9eaeb); /* For Safari */
+	background: -o-linear-gradient(#e6e7e8, #e9eaeb); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#e6e7e8, #e9eaeb); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#e6e7e8, #e9eaeb); /* Standard syntax */
+}
+.tablebg02 {
+	background: -webkit-linear-gradient(#e9eaeb, #edeeee); /* For Safari */
+	background: -o-linear-gradient(#e9eaeb, #edeeee); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#e9eaeb, #edeeee); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#e9eaeb, #edeeee); /* Standard syntax */
+}
+.tablebg03 {
+	background: -webkit-linear-gradient(#eeeeef, #f9f9f9); /* For Safari */
+	background: -o-linear-gradient(#eeeeef, #f9f9f9); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#eeeeef, #f9f9f9); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#eeeeef, #f9f9f9); /* Standard syntax */
+}
+.tablebg04 {
+	background: -webkit-linear-gradient(#f9f9f9, #ffffff); /* For Safari */
+	background: -o-linear-gradient(#f9f9f9, #ffffff); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#f9f9f9, #ffffff); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#f9f9f9, #ffffff); /* Standard syntax */
 }

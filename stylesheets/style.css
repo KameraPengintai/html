@@ -1036,6 +1036,8 @@ size32 {
 	padding:20px;
 }
 #tabsfaq .ui-corner-bottom {
+	border-bottom-right-radius:0.5em;
+	border-bottom-left-radius:0.5em;
 }
 #tabsfaq h4 {
 	font-weight:bold;
@@ -1455,4 +1457,14 @@ shophargalama {
 	background: -o-linear-gradient(#f9f9f9, #ffffff); /* For Opera 11.1 to 12.0 */
 	background: -moz-linear-gradient(#f9f9f9, #ffffff); /* For Firefox 3.6 to 15 */
 	background: linear-gradient(#f9f9f9, #ffffff); /* Standard syntax */
+}
+require {
+	color: red;
+	font-weight: bold;
+}
+.h7 {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 7px;
+	border-bottom: solid 1px #cccccc;
 }

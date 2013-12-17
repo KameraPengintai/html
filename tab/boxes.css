@@ -541,7 +541,7 @@ p#logo { float:left; position: relative; width:200px; height: 79px; margin: 15px
 .ind_way_warp,
 .pagination li,
 .ind_review a.prev,
-.ind_review a.next{ background: url(../images/shiping.png) no-repeat; _background: url(../images/index_sprite.gif) no-repeat;}
+.ind_review a.next{ background: url(../images/shiping.png) no-repeat; background: url(../images/index_sprite.png) no-repeat;}
 .ind_bann_warp{ position: relative; width: 100%; }
 .ind_bann{ height: 265px; width: 100%; overflow: hidden; box-shadow: 1px 0 2px #CCC , -1px 0 2px #CCC;}
 .slides_container{ height: 265px;}
@@ -549,10 +549,10 @@ p#logo { float:left; position: relative; width:200px; height: 79px; margin: 15px
 .pagination li{position: absolute; width: 24px; height: 24px; background-position: 0 -703px; z-index: 7; text-align: center; line-height: 22px;}
 .pagination li a{ color: #333; display: block; width: 24px; height: 24px; font-weight: bold;}
 .pagination li a:hover{ text-decoration: none;}
-.pagination li.pagin_0{ top:65px; left: 703px;}
-.pagination li.pagin_1{top:95px; left: 692px;}
-.pagination li.pagin_2{top:125px; left: 682px;}
-.pagination li.pagin_3{top:155px; left: 672px;}
+.pagination li.pagin_0{ top:65px; left: 699px;}
+.pagination li.pagin_1{top:95px; left: 688px;}
+.pagination li.pagin_2{top:125px; left: 677px;}
+.pagination li.pagin_3{top:155px; left: 667px;}
 .pagination li.current{ background-position: -39px -703px;}
 .pagination li.current a{ color: #FFF; font-weight: bold;}
 

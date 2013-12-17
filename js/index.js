@@ -1,0 +1,1 @@
+var $j=jQuery.noConflict();$j(document).ready(function(){$j("#slides").slides({preload:true,preloadImage:"http://www.homesecurity361.com/skin/frontend/default/tem_zmodo/images/loading.gif",play:4000,pause:3000,hoverPause:true});$j("#slides_review").slides({generateNextPrev:true,generatePagination:false,play:4000,autoHeight:true,pagination:false})});

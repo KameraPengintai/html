@@ -29,10 +29,6 @@
 	<script src="cssmenu/menu_source/jquery.min.js"></script>
 	<!--kategori-->
 
-	<!--slideshow-->
-	<link rel="stylesheet" type="text/css" href="slides/style.css" />
-	<!--slideshow-->
-	
 	<!--tab-->
 	<link rel="stylesheet" href="tab/boxes.css">
 	<script type="text/javascript" src="tab/all.js"></script>
@@ -41,6 +37,16 @@
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
+
+	<!--jquery-->
+	<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+		<!--slideshow-->
+		<script type="text/javascript" src="js/slides.min.jquery.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<!--slideshow-->
+	<!--jquery-->
 
         <script>
         var counter = 0;
@@ -166,41 +172,12 @@
 				<div class="ind_bann">
 
 					<!-- start slideshow -->
-					<div class="containerSlide">
-						<div id="content-slider">
-							<div id="slider">
-								<div id="mask">
-									<ul>
-										<li id="first" class="firstanimation">
-										<a href="#">
-										<img src="images/slider_01.png" alt="Security Cameras"/>
-										</a>
-										<div class="tooltip">
-										<h1>Security Cameras</h1>
-										</div>
-										</li>
-
-										<li id="second" class="secondanimation">
-										<a href="#">
-										<img src="images/slider_02.jpg" alt="Wireless IP Camera"/>
-										</a>
-										<div class="tooltip">
-										<h1>Wireless IP Camera</h1>
-										</div>
-										</li>
-										
-										<li id="third" class="thirdanimation">
-										<a href="#">
-										<img src="images/slider_03.jpg" alt="ZMODO 960H"/>
-										</a>
-										<div class="tooltip">
-										<h1>ZMODO 960H</h1>
-										</div>
-										</li>
-									</ul>
-								</div>
-								<div class="progress-bar"></div>
-							</div>
+					<div id="slides" class=" slides_warp">
+						<div class="slides_container">
+							<a href="#"><img width="780" height="265" src="images/slider_01.png" alt=""/></a>
+							<a href="#"><img width="780" height="265" src="images/slider_02.jpg" alt=""/></a>
+							<a href="#"><img width="780" height="265" src="images/slider_03.jpg" alt=""/></a>
+							<a href="#"><img width="780" height="265" src="images/slider_02.jpg" alt=""/></a>
 						</div>
 					</div>
 					<!-- end slideshow -->

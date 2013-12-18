@@ -541,7 +541,7 @@ p#logo { float:left; position: relative; width:200px; height: 79px; margin: 15px
 .ind_way_warp,
 .pagination li,
 .ind_review a.prev,
-.ind_review a.next{ background: url(../images/shiping.png) no-repeat; background: url(../images/index_sprite.png) no-repeat;}
+.ind_review a.next{ background: url(../images/index_sprite.png) no-repeat;}
 .ind_bann_warp{ position: relative; width: 100%; }
 .ind_bann{ height: 265px; width: 100%; overflow: hidden; box-shadow: 1px 0 2px #CCC , -1px 0 2px #CCC;}
 .slides_container{ height: 265px;}

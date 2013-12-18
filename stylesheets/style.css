@@ -533,7 +533,7 @@ textarea:focus {
 	box-shadow:  0 0 3px rgba(0,0,0,.2);
 }
 .searchform button {
-	background:url(../images/tombol_01.png);
+	background:#e6c419 url(../images/tombol_01.png);
 	border: 0px;
 	border-top-right-radius: 0.25em;
 	border-bottom-right-radius: 0.25em;
@@ -1445,6 +1445,9 @@ size32 {
 .borderleft {
 	border-left:solid 1px #89898b;
 }
+.borderbottom4 {
+	border-bottom: 4px solid #A0A0A0;
+}
 shopharga {
 	font-family:Century Gothic;
 	font-size:14px;
@@ -1501,3 +1504,15 @@ require {
     padding: 7px;
 	border-bottom: solid 1px #cccccc;
 }
+
+/*Shipping list*/
+.shiplist{overflow: hidden; width: 577px; margin: 0 10px;}
+.shiplist li{ background: url(../images/shiping.png) no-repeat; display: inline; float: left; width: 210px; height: 45px; padding:0 0 0 71px; margin: 10px 0;}
+.shiplist li.item_ship{ background-position: 0px -10px;}
+.shiplist li.item_return{ background-position: 10px -112px;}
+.shiplist li.item_customer{ background-position: 0px -59px;}
+.shiplist li.item_warranty{ background-position: 18px -166px;}
+.shiplist li p{ font-size: 11px;}
+.shiplist li a{ color:#333; text-decoration:none;font-size: 11px; display:block}
+.shiplist li .tit{ font-size: 14px; font-weight: bold; color: #716E67; margin: 0 0 0px; line-height:11px;}
+.shiplist li a:hover,.shiplist li a:hover .tit{ color:#E36F08}

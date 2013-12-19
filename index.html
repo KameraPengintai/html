@@ -48,31 +48,31 @@
 		<!--slideshow-->
 	<!--jquery-->
 
-        <script>
-        var counter = 0;
+	<script>
+	var counter = 0;
 
-        function changeText()
-        {
-        var quotes = new Array();
+	function changeText()
+	{
+	var quotes = new Array();
 
-        quotes[0] = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.";
-        quotes[1] = "Consectetuer adipiscing elit, Lorem ipsum dolor sit amet , sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.";
-        quotes[2] = "Sed diam nonummy nibh euismod tincidunt Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.";
-        quotes[3] = "Ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.";
-        quotes[4] = "Quis nostrud exerci tation ullamcorper suscipit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.";
+	quotes[0] = "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.";
+	quotes[1] = "Consectetuer adipiscing elit, Lorem ipsum dolor sit amet , sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.";
+	quotes[2] = "Sed diam nonummy nibh euismod tincidunt Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.";
+	quotes[3] = "Ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.";
+	quotes[4] = "Quis nostrud exerci tation ullamcorper suscipit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.";
 
-        if (counter > 4)
-            {
-            counter = 0;
-            }
+	if (counter > 4)
+		{
+		counter = 0;
+		}
 
-        document.getElementById("textslide").innerHTML = quotes[counter];
+	document.getElementById("textslide").innerHTML = quotes[counter];
 
-        setTimeout(function(){changeText()},5000);
-        counter ++;
-        }
-        </script>
-
+	setTimeout(function(){changeText()},5000);
+	counter ++;
+	}
+	
+	</script>
 
 </head>
 <body onload="changeText();">

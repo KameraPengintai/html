@@ -1067,6 +1067,71 @@ size32 {
 	color:#ffffff;
 	font-size:14px;
 }
+
+/* tab home */
+#tabshome ul {
+	border-bottom:solid 2px #995a89;
+	padding-top:10px;
+	padding-left:12px;
+	margin-bottom:0px;
+	background: -webkit-linear-gradient(#edeeee, #cccccc); /* For Safari */
+	background: -o-linear-gradient(#edeeee, #cccccc); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#edeeee, #cccccc); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#edeeee, #cccccc); /* Standard syntax */
+}
+#tabshome li {
+	float:left;
+	margin-bottom:0px;
+}
+#tabshome .ui-state-default {
+	padding:18px 30px 12px 30px;
+	text-shadow: 0px -1px rgba(0, 0, 0, 0.37);
+}
+#tabshome .ui-tabs-active {
+	background:#995a89;
+	color:#ffffff !important;
+	border-top-right-radius:0.5em;
+	border-top-left-radius:0.5em;
+	padding:18px 30px 12px 30px;
+}
+#tabshome .ui-tabs-panel {
+	background:#ffffff;
+    font-size: 13px;
+    line-height: 16px;
+	padding:20px;
+}
+#tabshome .ui-corner-bottom {
+	border-bottom-right-radius:0.5em;
+	border-bottom-left-radius:0.5em;
+}
+#tabshome h4 {
+	font-weight:bold;
+}
+#tabshome h6 {
+    background: #E6E6E6;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 7px;
+}
+#tabshome p {
+    padding: 7px;
+}
+#tabshome a {
+	color:#999999;
+	font-size:14px;
+}
+#tabshome a:hover {
+	color:#ffffff;
+	font-size:14px;
+}
+#tabshome a:visited {
+	color:#ffffff;
+	font-size:14px;
+}
+#tabshome a:focus {
+	color:#ffffff;
+	font-size:14px;
+}
 .faqtab {
 	font-size:12px;
 	min-height:900px;
